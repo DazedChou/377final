@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Material",
+        "value1": "Est. Percent",
+        "value2": "Cumulative Percent",
+        "value3": "Est. Tons"
+    },
+    {
+        "title": "Mixed Residue",
+        "value1": 9.5,
+        "value2": 9.5,
+        "value3": 3790656
+    },
+    {
+        "title": "Corrugated Cardboard",
+        "value1": 4.1,
+        "value2": 13.6,
+        "value3": 1643490
+    },
+    {
+        "title": "Food - Not Donatable - Non-meat",
+        "value1": 4.0,
+        "value2": 17.6,
+        "value3": 1587268
+    },
+    {
+        "title": "Bulky Items",
+        "value1": 3.6,
+        "value2": 21.2,
+        "value3": 1433777
+    },
+    {
+        "title": "Remainder/Composite Inerts and Others",
+        "value1": 3.6,
+        "value2": 24.8,
+        "value3": 1428928
+    },
+    {
+        "title": "Other Coompostable Paper",
+        "value1": 3.5,
+        "value2": 28.3,
+        "value3": 1407596
+    },
+    {
+        "title": "Treated/Painted/Stained Wood",
+        "value1": 3.4,
+        "value2": 31.7,
+        "value3": 1362209
+    },
+    {
+        "title": "Other Plastic Packaging",
+        "value1": 3.1,
+        "value2": 34.8,
+        "value3": 1247468
+    },
+    {
+        "title": "Prunings and Trimmings",
+        "value1": 2.8,
+        "value2": 37.6,
+        "value3": 1127857
+    },
+    {
+        "title": "Clean Dimensional Lumber",
+        "value1": 2.8,
+        "value2": 40.4,
+        "value3": 1118977 
+    },
+    {
+        "title": "Total",
+        "value1": 40.4,
+        "value3": 16148226 
+    }
+    
+]

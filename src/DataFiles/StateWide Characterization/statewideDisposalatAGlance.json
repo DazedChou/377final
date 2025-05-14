@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Sector",
+        "value1": "Est. % of Disposed Waste",
+        "value2": "Est. Tons Disposed Statewide"
+    },
+    {
+        "title": "Franchised Commercial and Multi-Family Residential",
+        "value1": 48.1,
+        "value2": 19206354
+    },
+    {
+        "title": "Franchised Single-Family Residential",
+        "value1": "32.1",
+        "value2": 12810213
+    },
+    {
+        "title": "Self-Hauled",
+        "value1": 19.7,
+        "value2": 7862416
+    }
+]

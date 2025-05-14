@@ -1,0 +1,75 @@
+[
+    {
+        "title": "Material",
+        "value1": "Est. Percent",
+        "value2": "Cumulative Percent",
+        "value3": "Est. Tons"
+    },
+    {
+        "title": "Remainder/Composite Inerts and Others",
+        "value1": 9.7,
+        "value2": 9.7,
+        "value3": 766065
+    },
+    {
+        "title": "Treated/Painted/Stained Wood",
+        "value1": 8.5,
+        "value2": 18.2,
+        "value3": 667208
+    },
+    {
+        "title": "Bulky Items",
+        "value1": 7.4,
+        "value2": 25.6,
+        "value3": 584065
+    },
+    {
+        "title": "Clean Dimensional Lumber",
+        "value1": 7.3,
+        "value2": 32.9,
+        "value3": 570338
+    },
+    {
+        "title": "Prunings and Trimmings",
+        "value1": 6.2,
+        "value2": 39.1,
+        "value3": 483851
+    },
+    {
+        "title": "Gypsum Board",
+        "value1": 5.4,
+        "value2": 44.5,
+        "value3": 425507
+    },
+    {
+        "title": "Other Ferrous",
+        "value1": 4.9,
+        "value2": 49.4,
+        "value3": 384798
+    },
+
+    {
+        "title": "Asphalt Roofing",
+        "value1": 4.5,
+        "value2": 53.9,
+        "value3": 355798
+    },
+    {
+        "title": "Concrete",
+        "value1": 4.4,
+        "value2": 58.3,
+        "value3": 349296
+    },
+    {
+        "title": "Rocks, Soil and Fines",
+        "value1": 4.1,
+        "value2": 62.4,
+        "value3": 320258
+    },
+    {
+        "title": "Total",
+        "value1": 62.4,
+        "value3": 4907284 
+    }
+    
+]

@@ -1,0 +1,212 @@
+[
+    {
+        "county": "Solano",
+        "facility": "Potrero Hills Landfill",
+        "city": "Suisun City",
+        "sampleDays": 2,
+        "days": "5/27/2021 - 5/28/2021"
+    },
+    {
+        "county": "Alameda",
+        "facility": "Altamont Landfill & Resource Recovery",
+        "city": "Livermore",
+        "sampleDays": 2,
+        "days": "6/17/2021 - 6/18/2021"
+    },
+    {
+        "county": "Alameda",
+        "facility": "Vasco Road Landfill",
+        "city": "Livermore",
+        "sampleDays": 2,
+        "days": "6/21/2021 - 6/22/2021"
+    },
+    {
+        "county": "Sonoma",
+        "facility": "Central Disposal Site",
+        "city": "Petaluma",
+        "sampleDays": 2,
+        "days": "6/14/2021 - 6/15/2021"
+    },
+    {
+        "county": "Marin",
+        "facility": "Redwood Landfill",
+        "city": "Novato",
+        "sampleDays": 1,
+        "days": "6/16/2021"
+    },
+    {
+        "county": "Solano",
+        "facility": "Recology Hay Road",
+        "city": "Vacaville",
+        "sampleDays": 2,
+        "days": "5/25/2021 - 5/26/2021"
+    },
+    {
+        "county": "Monterey",
+        "facility": "Monterey Peninsula Landfill",
+        "city": "Salinas",
+        "sampleDays": 2,
+        "days": "6/23/2021 - 6/24/2021"
+    },
+    {
+        "county": "Monterey",
+        "facility": "Johnson Canyon Sanitary Landfill",
+        "city": "Gonzales",
+        "sampleDays": 1,
+        "days": "6/25/2021"
+    },
+    {
+        "county": "Los Angeles",
+        "facility": "Calabasas Landfill",
+        "city": "Agoura Hills",
+        "sampleDays": 1,
+        "days": "9/24/2021"
+    },
+    {
+        "county": "Los Angeles",
+        "facility": "Scholl Canyon Landfill",
+        "city": "Glendale",
+        "sampleDays": 1,
+        "days": "10/4/2021"
+    },
+    {
+        "county": "Los Angeles",
+        "facility": "Sunshine Canyon",
+        "city": "Sylmar",
+        "sampleDays": 2,
+        "days": "9/20/2021 - 9/21/2021"
+    },
+    {
+        "county": "Los Angeles",
+        "facility": "Chiquita Canyon",
+        "city": "Castaic",
+        "sampleDays": 2,
+        "days": "9/16/2021 - 9/17/2021"
+    },
+    {
+        "county": "Los Angeles",
+        "facility": "Antelope Valley Recycling and Disposal Facility",
+        "city": "Palmdale",
+        "sampleDays": 2,
+        "days": "9/13/2021 - 9/14/2021"
+    },
+    {
+        "county": "Orange",
+        "facility": "Frank R Bowerman Landfill",
+        "city": "Irvine",
+        "sampleDays": 2,
+        "days": "10/7/2021 - 10/8/2021"
+    },
+    {
+        "county": "Orange",
+        "facility": "Olinda Alpha Sanitary Landfill",
+        "city": "Brea",
+        "sampleDays": 2 ,
+        "days": "10/5/2021 - 10/6/2021"
+    },
+    {
+        "county": "Orange",
+        "facility": "Prima Deshecha Sanitary Landfill",
+        "city": "San Juan Capistrano",
+        "sampleDays": 1,
+        "days": "10/14/2021"
+    },
+    {
+        "county": "Riverside",
+        "facility": "El Sobrante Landfill",
+        "city": "Corona",
+        "sampleDays": 3,
+        "days": "10/11/2021 - 10/13/2021"
+    },
+    {
+        "county": "San Deigo",
+        "facility": "West Miramar Sanitary Landfill",
+        "city": "San Diego",
+        "sampleDays": 2,
+        "days": "10/15/2021,10/18/2021"
+    },
+    {
+        "county": "San Diego",
+        "facility": "Otay Landfill",
+        "city": "Chula Vista",
+        "sampleDays": 2,
+        "days": "10/21/2021 - 10/22/2021"
+    },
+    {
+        "county": "San Deigo",
+        "facility": "Sycamore Landfill",
+        "city": "Santee",
+        "sampleDays": 2,
+        "days": "10/19/2021 - 10/20/2021"
+    },
+    {
+        "county": "Ventura",
+        "facility": "Toland Road Landfill",
+        "city": "Santa Paula",
+        "sampleDays": 1,
+        "days": "9/15/2021"
+    },
+    {
+        "county": "Ventura",
+        "facility": "Simi Valley Landfill",
+        "city": "Simi Valley",
+        "sampleDays": 2,
+        "days": "9/22/2021 - 9/23/2021"
+    },
+    {
+        "county": "Kern",
+        "facility": "Bakersfield Metro Landfill",
+        "city": "Bakersfield",
+        "sampleDays": 1,
+        "days": "5/10/2021"
+    },
+    {
+        "county": "Fresno",
+        "facility": "American Ave Disposal Site",
+        "city": "Kerman",
+        "sampleDays": 1,
+        "days": "5/11/2021"
+    },
+    {
+        "county": "Butte",
+        "facility": "Neal Road Recycling and Waste Facility",
+        "city": "Butte",
+        "sampleDays": 2,
+        "days": "5/18/2021 - 5/19/2021"
+    },
+    {
+        "county": "San Joaquin",
+        "facility": "Forward Landfill",
+        "city": "Manteca",
+        "sampleDays": 2,
+        "days": "5/13/2021 - 5/14/2021"
+    },
+    {
+        "county": "Madera",
+        "facility": "Fairmead Landfill",
+        "city": "Chowchilla",
+        "sampleDays": 1,
+        "days": "5/21/2021"
+    },
+    {
+        "county": "Shasta",
+        "facility": "Anderson Landfill",
+        "city": "Anderson",
+        "sampleDays": 1,
+        "days": "5/17/2021"
+    },
+    {
+        "county": "Yuba",
+        "facility": "Recology Ostrom Road",
+        "city": "Wheatland",
+        "sampleDays": 1,
+        "days": "5/20/2021"
+    },
+    {
+        "county": "Sacramento",
+        "facility": "Sacramento County Kiefer Landfil",
+        "city": "Sacramento",
+        "sampleDays": 2,
+        "days": "5/21/2021,5/24/2021"
+    }
+]
