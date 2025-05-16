@@ -1,75 +1,69 @@
 [
     {
-        "title": "Material",
-        "value1": "Est. Percent",
-        "value2": "Cumulative Percent",
-        "value3": "Est. Tons"
+        "material": "Mixed Residue",
+        "percent": 8.6,
+        "cumulativePercent": 8.6,
+        "weightInTons": 1644891
     },
     {
-        "title": "Mixed Residue",
-        "value1": 8.6,
-        "value2": 8.6,
-        "value3": 1644891
+        "material": "Corrugated Cardboard",
+        "percent": 6.9,
+        "cumulativePercent": 15.5,
+        "weightInTons": 1320833
     },
     {
-        "title": "Corrugated Cardboard",
-        "value1": 6.9,
-        "value2": 15.5,
-        "value3": 1320833
+        "material": "Food - Not Donatable - Non-meat",
+        "percent": 4.9,
+        "cumulativePercent": 20.4,
+        "weightInTons": 942642
     },
     {
-        "title": "Food - Not Donatable - Non-meat",
-        "value1": 4.9,
-        "value2": 20.4,
-        "value3": 942642
+        "material": "Other Compostable Paper",
+        "percent": 4.1,
+        "cumulativePercent": 24.5,
+        "weightInTons": 786188
     },
     {
-        "title": "Other Compostable Paper",
-        "value1": 4.1,
-        "value2": 24.5,
-        "value3": 786188
+        "material": "Other Plastic Packaging",
+        "percent": 3.6,
+        "cumulativePercent": 28.1,
+        "weightInTons": 696980
     },
     {
-        "title": "Other Plastic Packaging",
-        "value1": 3.6,
-        "value2": 28.1,
-        "value3": 696980
+        "material": "Bulky Items",
+        "percent": 3.1,
+        "cumulativePercent": 31.2,
+        "weightInTons": 590101
     },
     {
-        "title": "Bulky Items",
-        "value1": 3.1,
-        "value2": 31.2,
-        "value3": 590101
-    },
-    {
-        "title": "Food - Inedible",
-        "value1": 2.9,
-        "value2": 34.1,
-        "value3": 551381
+        "material": "Food - Inedible",
+        "percent": 2.9,
+        "cumulativePercent": 34.1,
+        "weightInTons": 551381
     },
 
     {
-        "title": "Non-bag Commercial and Industrial Packaging Film",
-        "value1": 2.6,
-        "value2": 36.7,
-        "value3": 499982
+        "material": "Non-bag Commercial and Industrial Packaging Film",
+        "percent": 2.6,
+        "cumulativePercent": 36.7,
+        "weightInTons": 499982
     },
     {
-        "title": "Durable Plastic Items",
-        "value1": 2.6,
-        "value2": 39.3,
-        "value3": 497433
+        "material": "Durable Plastic Items",
+        "percent": 2.6,
+        "cumulativePercent": 39.3,
+        "weightInTons": 497433
     },
     {
-        "title": "Paper/Fiber Food Service Ware",
-        "value1": 2.5,
-        "value2": 41.8,
-        "value3": 481898
+        "material": "Paper/Fiber Food Service Ware",
+        "percent": 2.5,
+        "cumulativePercent": 41.8,
+        "weightInTons": 481898
     },
     {
-        "title": "Total",
-        "value1": 41.8,
-        "value3": 8012149 
+        "material": "Total",
+        "percent": 41.8,
+        "weightInTons": 8012149 
     }
     
 ]

@@ -1,46 +1,42 @@
 [
     {
-        "title": "Material Category",
-        "value": "Est. Percent"
+        "materialCategory": "Miscellaneous",
+        "percent": 27.8
     },
     {
-        "title": "Miscellaneous",
-        "value": 27.8
+        "materialCategory": "Organics",
+        "percent": 27.0
     },
     {
-        "title": "Organics",
-        "value": 27.0
+        "materialCategory": "Paper",
+        "percent": 18.4
     },
     {
-        "title": "Paper",
-        "value": 18.4
+        "materialCategory": "Plastic",
+        "percent": 15.4
     },
     {
-        "title": "Plastic",
-        "value": 15.4
+        "materialCategory": "Metal",
+        "percent": 3.9
     },
     {
-        "title": "Metal",
-        "value": 3.9
+        "materialCategory": "Inerts and Other",
+        "percent": 2.7
     },
     {
-        "title": "Inerts and Other",
-        "value": 2.7
+        "materialCategory": "Glass",
+        "percent": 2.7
     },
     {
-        "title": "Glass",
-        "value": 2.7
+        "materialCategory": "Special Waste",
+        "percent": 1.0
     },
     {
-        "title": "Special Waste",
-        "value": 1.0
+        "materialCategory": "Electronics",
+        "percent": 0.7
     },
     {
-        "title": "Electronics",
-        "value": 0.7
-    },
-    {
-        "title": "HHW",
-        "value": 0.4
+        "materialCategory": "HHW",
+        "percent": 0.4
     }
 ]
