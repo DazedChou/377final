@@ -1,4 +1,4 @@
-# Dataset [Link] (https://www2.calrecycle.ca.gov/Publications/Details/1738)
+# Dataset [Link](https://www2.calrecycle.ca.gov/Publications/Details/1738)
 
 
 # Getting Started with Create React App
