@@ -1,0 +1,8 @@
+.body {
+    /* display: flex; */
+    width: 100%;
+    /* align-items: flex-start; */
+    /* flex-direction: column; */
+    font-size: calc(10px + 1vmin);
+    /* padding: 2%; */
+  }

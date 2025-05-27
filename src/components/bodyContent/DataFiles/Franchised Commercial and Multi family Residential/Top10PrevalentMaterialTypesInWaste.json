@@ -1,0 +1,69 @@
+[
+    {
+        "material": "Mixed Residue",
+        "percent": 8.6,
+        "cumulativePercent": 8.6,
+        "weightInTons": 1644891
+    },
+    {
+        "material": "Corrugated Cardboard",
+        "percent": 6.9,
+        "cumulativePercent": 15.5,
+        "weightInTons": 1320833
+    },
+    {
+        "material": "Food - Not Donatable - Non-meat",
+        "percent": 4.9,
+        "cumulativePercent": 20.4,
+        "weightInTons": 942642
+    },
+    {
+        "material": "Other Compostable Paper",
+        "percent": 4.1,
+        "cumulativePercent": 24.5,
+        "weightInTons": 786188
+    },
+    {
+        "material": "Other Plastic Packaging",
+        "percent": 3.6,
+        "cumulativePercent": 28.1,
+        "weightInTons": 696980
+    },
+    {
+        "material": "Bulky Items",
+        "percent": 3.1,
+        "cumulativePercent": 31.2,
+        "weightInTons": 590101
+    },
+    {
+        "material": "Food - Inedible",
+        "percent": 2.9,
+        "cumulativePercent": 34.1,
+        "weightInTons": 551381
+    },
+
+    {
+        "material": "Non-bag Commercial and Industrial Packaging Film",
+        "percent": 2.6,
+        "cumulativePercent": 36.7,
+        "weightInTons": 499982
+    },
+    {
+        "material": "Durable Plastic Items",
+        "percent": 2.6,
+        "cumulativePercent": 39.3,
+        "weightInTons": 497433
+    },
+    {
+        "material": "Paper/Fiber Food Service Ware",
+        "percent": 2.5,
+        "cumulativePercent": 41.8,
+        "weightInTons": 481898
+    },
+    {
+        "material": "Total",
+        "percent": 41.8,
+        "weightInTons": 8012149 
+    }
+    
+]

@@ -1,0 +1,87 @@
+.map {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.leaflet-control.custom-county-control {
+    background: white;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    font-family: system-ui, sans-serif;
+}
+
+.county-select {
+    appearance: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    outline: none;
+    width: 160px;
+}
+
+.county-select:hover {
+    background-color: #f0f0f0;
+}
+
+.county-select:focus {
+    border-color: #007bff;
+    background-color: #fff;
+}
+
+
+/* Correlation CSS */
+.correlation-container {
+    margin-top: 1.5rem;
+    max-width: 100%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: space-around;
+}
+
+.correlation-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    text-align: center;
+}
+
+.correlation-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    font-size: 0.95rem;
+}
+
+.correlation-table th,
+.correlation-table td {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.correlation-table thead {
+    background-color: #f0f0f0;
+}
+
+.correlation-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.correlation-heatmap {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.correlation-heatmap svg {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    margin-top: 1rem;
+}

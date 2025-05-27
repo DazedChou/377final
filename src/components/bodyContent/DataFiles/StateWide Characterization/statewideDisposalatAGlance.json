@@ -1,0 +1,17 @@
+[
+    {
+        "sector": "Franchised Commercial and Multi-Family Residential",
+        "percentWaste": 48.1,
+        "weightInTons": 19206354
+    },
+    {
+        "sector": "Franchised Single-Family Residential",
+        "percentWaste": 32.1,
+        "weightInTons": 12810213
+    },
+    {
+        "sector": "Self-Hauled",
+        "percentWaste": 19.7,
+        "weightInTons": 7862416
+    }
+]

@@ -1,0 +1,463 @@
+[
+  {
+    "county": "All",
+    "coords": [37.65, -121.91]
+  },
+  {
+    "county": "Solano",
+    "facility": "Potrero Hills Landfill",
+    "city": "Suisun City",
+    "sampleDays": 2,
+    "days": "5/27/2021 - 5/28/2021",
+    "samples": {
+      "singleFamily": 6,
+      "commercial": 5,
+      "selfHaul": 7,
+      "mixedWaste": 2
+    },
+    "totalDisposalTonnage": 948038,
+    "coords": [38.2449, -122.017],
+    "area": 4.08609
+  },
+  {
+    "county": "Alameda",
+    "facility": "Altamont Landfill & Resource Recovery",
+    "city": "Livermore",
+    "sampleDays": 2,
+    "days": "6/17/2021 - 6/18/2021",
+    "samples": {
+      "singleFamily": 5,
+      "commercial": 6,
+      "selfHaul": 7,
+      "mixedWaste": 2
+    },
+    "totalDisposalTonnage": 1101932,
+    "coords": [37.6819, -121.7681],
+    "area": 26.72075
+  },
+  {
+    "county": "Alameda",
+    "facility": "Vasco Road Landfill",
+    "city": "Livermore",
+    "sampleDays": 2,
+    "days": "6/21/2021 - 6/22/2021",
+    "samples": {
+      "singleFamily": 6,
+      "commercial": 5,
+      "selfHaul": 7,
+      "mixedWaste": 2
+    },
+    "totalDisposalTonnage": 248968,
+    "coords": [37.6819, -121.7681],
+    "area": 26.72075
+  },
+  {
+    "county": "Sonoma",
+    "facility": "Central Disposal Site",
+    "city": "Petaluma",
+    "sampleDays": 2,
+    "days": "6/14/2021 - 6/15/2021",
+    "samples": {
+      "singleFamily": 7,
+      "commercial": 5,
+      "selfHaul": 6,
+      "mixedWaste": 2
+    },
+    "totalDisposalTonnage": 349095,
+    "coords": [38.2458, -122.6314],
+    "area": 14.5134
+  },
+  {
+    "county": "Marin",
+    "facility": "Redwood Landfill",
+    "city": "Novato",
+    "sampleDays": 1,
+    "days": "6/16/2021",
+    "samples": {
+      "singleFamily": 3,
+      "commercial": 4,
+      "selfHaul": 2,
+      "mixedWaste": 1
+    },
+    "coords": [38.1075, -122.5697],
+    "area": 27.6705
+  },
+  {
+    "county": "Solano",
+    "facility": "Recology Hay Road",
+    "city": "Vacaville",
+    "sampleDays": 2,
+    "days": "5/25/2021 - 5/26/2021",
+    "samples": {
+      "singleFamily": 5,
+      "commercial": 7,
+      "selfHaul": 6,
+      "mixedWaste": 2
+    },
+    "totalDisposalTonnage": 666134,
+    "coords": [38.31, -121.91],
+    "area": 29.831143
+  },
+  {
+    "county": "Monterey",
+    "facility": "Monterey Peninsula Landfill",
+    "city": "Salinas",
+    "sampleDays": 2,
+    "days": "6/23/2021 - 6/24/2021",
+    "samples": {
+      "singleFamily": 4,
+      "commercial": 8,
+      "selfHaul": 6,
+      "mixedWaste": 2
+    },
+    "totalDisposalTonnage": 732125,
+    "coords": [36.6777, -121.6555],
+    "area": 23.5177
+  },
+  {
+    "county": "Monterey",
+    "facility": "Johnson Canyon Sanitary Landfill",
+    "city": "Gonzales",
+    "sampleDays": 1,
+    "days": "6/25/2021",
+    "samples": {
+      "singleFamily": 2,
+      "commercial": 4,
+      "selfHaul": 3,
+      "mixedWaste": 1
+    },
+    "coords": [36.6777, -121.6555],
+    "area": 1.9422
+  },
+  {
+    "county": "Los Angeles",
+    "facility": "Calabasas Landfill",
+    "city": "Agoura Hills",
+    "sampleDays": 1,
+    "days": "9/24/2021",
+    "samples": {
+      "singleFamily": 3,
+      "commercial": 3,
+      "selfHaul": 4,
+      "mixedWaste": 0
+    },
+    "totalDisposalTonnage": 573393,
+    "coords": [34.0447, -118.2493],
+    "area": 7.8182
+  },
+  {
+    "county": "Los Angeles",
+    "facility": "Scholl Canyon Landfill",
+    "city": "Glendale",
+    "sampleDays": 1,
+    "days": "10/4/2021",
+    "samples": {
+      "singleFamily": 3,
+      "commercial": 3,
+      "selfHaul": 4,
+      "mixedWaste": 0
+    },
+    "totalDisposalTonnage": 468483,
+    "coords": [34.0447, -118.2493],
+    "area": 30.60392
+  },
+  {
+    "county": "Los Angeles",
+    "facility": "Sunshine Canyon",
+    "city": "Sylmar",
+    "sampleDays": 2,
+    "days": "9/20/2021 - 9/21/2021",
+    "samples": {
+      "singleFamily": 4,
+      "commercial": 6,
+      "selfHaul": 6,
+      "mixedWaste": 4
+    },
+    "coords": [34.0447, -118.2493]
+  },
+  {
+    "county": "Los Angeles",
+    "facility": "Chiquita Canyon",
+    "city": "Castaic",
+    "sampleDays": 2,
+    "days": "9/16/2021 - 9/17/2021",
+    "samples": {
+      "singleFamily": 6,
+      "commercial": 8,
+      "selfHaul": 2,
+      "mixedWaste": 4
+    },
+    "coords": [34.0447, -118.2493]
+  },
+  {
+    "county": "Los Angeles",
+    "facility": "Antelope Valley Recycling and Disposal Facility",
+    "city": "Palmdale",
+    "sampleDays": 2,
+    "days": "9/13/2021 - 9/14/2021",
+    "samples": {
+      "singleFamily": 4,
+      "commercial": 8,
+      "selfHaul": 6,
+      "mixedWaste": 2
+    },
+    "totalDisposalTonnage": 637280,
+    "coords": [34.0447, -118.2493],
+    "area": 106.29345
+  },
+  {
+    "county": "Orange",
+    "facility": "Frank R Bowerman Landfill",
+    "city": "Irvine",
+    "sampleDays": 2,
+    "days": "10/7/2021 - 10/8/2021",
+    "samples": {
+      "singleFamily": 4,
+      "commercial": 8,
+      "selfHaul": 6,
+      "mixedWaste": 2
+    },
+    "totalDisposalTonnage": 2475090,
+    "coords": [33.72, -117.77],
+    "area": 65.9313
+  },
+  {
+    "county": "Orange",
+    "facility": "Olinda Alpha Sanitary Landfill",
+    "city": "Brea",
+    "sampleDays": 2,
+    "days": "10/5/2021 - 10/6/2021",
+    "samples": {
+      "singleFamily": 4,
+      "commercial": 8,
+      "selfHaul": 6,
+      "mixedWaste": 0
+    },
+    "totalDisposalTonnage": 2085723,
+    "coords": [33.72, -117.77],
+    "area": 12.674
+  },
+  {
+    "county": "Orange",
+    "facility": "Prima Deshecha Sanitary Landfill",
+    "city": "San Juan Capistrano",
+    "sampleDays": 1,
+    "days": "10/14/2021",
+    "samples": {
+      "singleFamily": 2,
+      "commercial": 3,
+      "selfHaul": 4,
+      "mixedWaste": 1
+    },
+    "totalDisposalTonnage": 550996,
+    "coords": [33.72, -117.77],
+    "area": 14.4305
+  },
+  {
+    "county": "Riverside",
+    "facility": "El Sobrante Landfill",
+    "city": "Corona",
+    "sampleDays": 3,
+    "days": "10/11/2021 - 10/13/2021",
+    "samples": {
+      "singleFamily": 6,
+      "commercial": 12,
+      "selfHaul": 6,
+      "mixedWaste": 4
+    },
+    "totalDisposalTonnage": 3415360,
+    "coords": [33.95, -117.4],
+    "area": 39.91668
+  },
+  {
+    "county": "San Diego",
+    "facility": "West Miramar Sanitary Landfill",
+    "city": "San Diego",
+    "sampleDays": 2,
+    "days": "10/15/2021,10/18/2021",
+    "samples": {
+      "singleFamily": 7,
+      "commercial": 7,
+      "selfHaul": 6,
+      "mixedWaste": 1
+    },
+    "totalDisposalTonnage": 857660,
+    "coords": [32.83, -117.12],
+    "area": 340.4252
+  },
+  {
+    "county": "San Diego",
+    "facility": "Otay Landfill",
+    "city": "Chula Vista",
+    "sampleDays": 2,
+    "days": "10/21/2021 - 10/22/2021",
+    "samples": {
+      "singleFamily": 5,
+      "commercial": 7,
+      "selfHaul": 6,
+      "mixedWaste": 2
+    },
+    "totalDisposalTonnage": 1402763,
+    "coords": [32.83, -117.12],
+    "area": 52.11396
+  },
+  {
+    "county": "San Diego",
+    "facility": "Sycamore Landfill",
+    "city": "Santee",
+    "sampleDays": 2,
+    "days": "10/19/2021 - 10/20/2021",
+    "samples": {
+      "singleFamily": 6,
+      "commercial": 6,
+      "selfHaul": 6,
+      "mixedWaste": 2
+    },
+    "totalDisposalTonnage": 970393,
+    "coords": [32.83, -117.12],
+    "area": 16.69496
+  },
+  {
+    "county": "Ventura",
+    "facility": "Toland Road Landfill",
+    "city": "Santa Paula",
+    "sampleDays": 1,
+    "days": "9/15/2021",
+    "samples": {
+      "singleFamily": 2,
+      "commercial": 3,
+      "selfHaul": 4,
+      "mixedWaste": 1
+    },
+    "totalDisposalTonnage": 427199,
+    "coords": [34.36, -119.13],
+    "area": 5.81292
+  },
+  {
+    "county": "Ventura",
+    "facility": "Simi Valley Landfill",
+    "city": "Simi Valley",
+    "sampleDays": 2,
+    "days": "9/22/2021 - 9/23/2021",
+    "samples": {
+      "singleFamily": 4,
+      "commercial": 8,
+      "selfHaul": 6,
+      "mixedWaste": 2
+    },
+    "totalDisposalTonnage": 1451778,
+    "coords": [34.36, -119.13],
+    "area": 42.2732
+  },
+  {
+    "county": "Kern",
+    "facility": "Bakersfield Metro Landfill",
+    "city": "Bakersfield",
+    "sampleDays": 1,
+    "days": "5/10/2021",
+    "samples": {
+      "singleFamily": 3,
+      "commercial": 3,
+      "selfHaul": 3,
+      "mixedWaste": 2
+    },
+    "totalDisposalTonnage": 451105,
+    "coords": [35.35, -118.72],
+    "area": 151.96166
+  },
+  {
+    "county": "Fresno",
+    "facility": "American Ave Disposal Site",
+    "city": "Kerman",
+    "sampleDays": 1,
+    "days": "5/11/2021",
+    "samples": {
+      "singleFamily": 2,
+      "commercial": 4,
+      "selfHaul": 3,
+      "mixedWaste": 1
+    },
+    "totalDisposalTonnage": 653818,
+    "coords": [36.74, -119.77],
+    "area": 3.35148
+  },
+  {
+    "county": "San Joaquin",
+    "facility": "Forward Landfill",
+    "city": "Manteca",
+    "sampleDays": 2,
+    "days": "5/13/2021 - 5/14/2021",
+    "samples": {
+      "singleFamily": 6,
+      "commercial": 11,
+      "selfHaul": 0,
+      "mixedWaste": 3
+    },
+    "totalDisposalTonnage": 833904,
+    "coords": [37.93, -121.25],
+    "area": 21.894086
+  },
+  {
+    "county": "Madera",
+    "facility": "Fairmead Landfill",
+    "city": "Chowchilla",
+    "sampleDays": 1,
+    "days": "5/21/2021",
+    "samples": {
+      "singleFamily": 2,
+      "commercial": 4,
+      "selfHaul": 3,
+      "mixedWaste": 1
+    },
+    "coords": [37.1205, -120.2562],
+    "area": 11.6456
+  },
+  {
+    "county": "Shasta",
+    "facility": "Anderson Landfill",
+    "city": "Anderson",
+    "sampleDays": 1,
+    "days": "5/17/2021",
+    "samples": {
+      "singleFamily": 3,
+      "commercial": 2,
+      "selfHaul": 4,
+      "mixedWaste": 1
+    },
+    "totalDisposalTonnage": 611185,
+    "coords": [40.4482, -122.2978],
+    "area": 7.24946
+  },
+  {
+    "county": "Yuba",
+    "facility": "Recology Ostrom Road",
+    "city": "Wheatland",
+    "sampleDays": 1,
+    "days": "5/20/2021",
+    "samples": {
+      "singleFamily": 2,
+      "commercial": 4,
+      "selfHaul": 3,
+      "mixedWaste": 1
+    },
+    "totalDisposalTonnage": 1165578,
+    "coords": [39.27, -121.35],
+    "area": 8.13021
+  },
+  {
+    "county": "Sacramento",
+    "facility": "Sacramento County Kiefer Landfil",
+    "city": "Sacramento",
+    "sampleDays": 2,
+    "days": "5/21/2021,5/24/2021",
+    "samples": {
+      "singleFamily": 5,
+      "commercial": 10,
+      "selfHaul": 3,
+      "mixedWaste": 2
+    },
+    "totalDisposalTonnage": 915504,
+    "coords": [38.58, -121.49],
+    "area": 100.6343
+  }
+]

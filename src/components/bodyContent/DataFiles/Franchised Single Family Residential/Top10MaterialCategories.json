@@ -1,0 +1,42 @@
+[
+    {
+        "materialCategory": "Miscellaneous",
+        "percent": 27.8
+    },
+    {
+        "materialCategory": "Organics",
+        "percent": 27.0
+    },
+    {
+        "materialCategory": "Paper",
+        "percent": 18.4
+    },
+    {
+        "materialCategory": "Plastic",
+        "percent": 15.4
+    },
+    {
+        "materialCategory": "Metal",
+        "percent": 3.9
+    },
+    {
+        "materialCategory": "Inerts and Other",
+        "percent": 2.7
+    },
+    {
+        "materialCategory": "Glass",
+        "percent": 2.7
+    },
+    {
+        "materialCategory": "Special Waste",
+        "percent": 1.0
+    },
+    {
+        "materialCategory": "Electronics",
+        "percent": 0.7
+    },
+    {
+        "materialCategory": "HHW",
+        "percent": 0.4
+    }
+]

@@ -1,0 +1,69 @@
+[
+    {
+        "material": "Mixed Residue",
+        "percent": 16.8,
+        "cumulativePercent": 16.8,
+        "weightInTons": 2153968
+    },
+    {
+        "material": "Food - Not Donatable - Non-meat",
+        "percent": 6.7,
+        "cumulativePercent": 23.5,
+        "weightInTons": 858815
+    },
+    {
+        "material": "Other Compostable Paper",
+        "percent": 6.1,
+        "cumulativePercent": 29.6,
+        "weightInTons": 775280
+    },
+    {
+        "material": "Diapers & Sanitary Products",
+        "percent": 5.4,
+        "cumulativePercent": 35.0,
+        "weightInTons": 697125
+    },
+    {
+        "material": "Other Plastic Packaging",
+        "percent": 4.7,
+        "cumulativePercent": 39.7,
+        "weightInTons": 607875
+    },
+    {
+        "material": "Food - Inedible",
+        "percent": 4.1,
+        "cumulativePercent": 43.8,
+        "weightInTons": 523581
+    },
+    {
+        "material": "Paper/Fiber Food Service Ware",
+        "percent": 3.5,
+        "cumulativePercent": 47.3,
+        "weightInTons": 452316
+    },
+    {
+        "material": "Textiles - Cloth and Clothing",
+        "percent": 3.3,
+        "cumulativePercent": 50.6,
+        "weightInTons": 425979
+    },
+
+    {
+        "material": "Leaves and Grass",
+        "percent": 2.3,
+        "cumulativePercent": 52.9,
+        "weightInTons": 300790
+    },
+    {
+        "material": "Prunings and Trimmings",
+        "percent": 2.1,
+        "cumulativePercent": 55.0,
+        "weightInTons": 269876
+    },
+    {
+        "material": "Total",
+        "percent": 55.0,
+        "weightInTons": 7065606 
+    }
+    
+]
