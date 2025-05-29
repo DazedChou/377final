@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { AppBar, Tabs, Tab, Toolbar, Typography } from '@mui/material';
 
 const TopNav = ({ tabIndex, setTabIndex }) => {

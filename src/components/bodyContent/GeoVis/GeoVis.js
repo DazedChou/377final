@@ -8,6 +8,8 @@ import "./index.css";
 import { processData, computeCorrelations } from "./utilities.js";
 import CorrelationTable from "./Table.js";
 import CorrelationHeatmap from "./HeatMap.js";
+import { Box, Tabs, Tab, Paper } from "@mui/material";
+
 
 function ChangeMapView({ coords, zoom }) {
   const map = useMap();
@@ -108,16 +110,6 @@ const GeoVis = () => {
     setCountyCoords(Array.from(countyCoordsMap.entries()));
   }, []);
 
-  const style = (feature) => {
-    return {
-      fillColor: "lightgray",
-      weight: 1,
-      opacity: 1,
-      color: "white",
-      fillOpacity: 0.7,
-    };
-  };
-
   const onEachFeature = (feature, layer) => {
     if (feature.properties) {
       const { waste } = feature.properties;
@@ -158,52 +150,84 @@ const GeoVis = () => {
     }
   };
 
+    const [view, setView] = useState(0);
+
+    const handleChange = (event, newValue) => {
+      setView(newValue);
+    };
+
   return (
-    <div className="map">
-      <MapContainer
-        center={selectedCounty.coords}
-        zoom={selectedCounty.zoom}
-        style={{ height: "60vh", width: "100%" }}
-      >
-        <ChangeMapView
-          coords={selectedCounty.coords}
-          zoom={selectedCounty.zoom}
-        />
-        <CountySelectorControl
-          countyCoords={countyCoords}
-          selectedCounty={selectedCounty}
-          setSelectedCounty={setSelectedCounty}
-        />
-        <TileLayer
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          attribution="© OpenStreetMap contributors"
-        />
-        {geoData && (
-          <GeoJSON
-            data={geoData}
-            ref={geoRef}
-            onEachFeature={onEachFeature}
-            // style={style}
-          />
+    <Box sx={{ width: "100%" }}>
+      <Paper elevation={3} sx={{ mb: 2 }}>
+        <Tabs
+          value={view}
+          onChange={handleChange}
+          centered
+          indicatorColor="primary"
+          textColor="primary"
+        >
+          <Tab label="Map" />
+          <Tab label="Geo Analycits" />
+        </Tabs>
+      </Paper>
+
+      <Box sx={{ p: 2 }}>
+        {view === 0 && (
+          <>
+            <div className="map">
+              <MapContainer
+                center={selectedCounty.coords}
+                zoom={selectedCounty.zoom}
+                style={{ height: "60vh", width: "100%" }}
+              >
+                <ChangeMapView
+                  coords={selectedCounty.coords}
+                  zoom={selectedCounty.zoom}
+                />
+                <CountySelectorControl
+                  countyCoords={countyCoords}
+                  selectedCounty={selectedCounty}
+                  setSelectedCounty={setSelectedCounty}
+                />
+                <TileLayer
+                  url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                  attribution="© OpenStreetMap contributors"
+                />
+                {geoData && (
+                  <GeoJSON
+                    data={geoData}
+                    ref={geoRef}
+                    onEachFeature={onEachFeature}
+                    // style={style}
+                  />
+                )}
+                {/* <FitBounds /> */}
+              </MapContainer>
+            </div>
+          </>
         )}
-        {/* <FitBounds /> */}
-      </MapContainer>
-      <h2 className="correlation-title">
-        Correlation Analysis of Waste Data
-      </h2>
-      <div className="correlation-container">
-        <CorrelationHeatmap
-          rawData={listData}
-          processData={processData}
-          computeCorrelations={computeCorrelations}
-        />
-        <CorrelationTable
-          rawData={listData}
-          processData={processData}
-          computeCorrelations={computeCorrelations}
-        />
-      </div>
-    </div>
+
+        {view === 1 && (
+          <>
+            <h2 className="correlation-title">
+              Correlation Analysis of Waste Data
+            </h2>
+            <div className="correlation-container">
+              <CorrelationHeatmap
+                rawData={listData}
+                processData={processData}
+                computeCorrelations={computeCorrelations}
+              />
+              <CorrelationTable
+                rawData={listData}
+                processData={processData}
+                computeCorrelations={computeCorrelations}
+              />
+            </div>
+          </>
+        )}
+      </Box>
+    </Box>
   );
 };
 

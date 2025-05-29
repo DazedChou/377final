@@ -1,13 +1,10 @@
 import React, { useRef, useEffect } from "react";
 import * as d3 from "d3";
-import "./index.css";
+import { Box, Typography, Paper, useTheme } from "@mui/material";
 
-export default function CorrelationHeatmap({
-  rawData,
-  processData,
-  computeCorrelations,
-}) {
+const CorrelationHeatmap = ({ rawData, processData, computeCorrelations }) => {
   const svgRef = useRef();
+  const theme = useTheme();
 
   useEffect(() => {
     const processed = processData(rawData);
@@ -20,79 +17,91 @@ export default function CorrelationHeatmap({
 
     const variables = Array.from(new Set(data.flatMap((d) => [d.x, d.y])));
 
-    const size = 400;
-    const margin = { top: 50, right: 50, bottom: 50, left: 50 };
-    const cellSize = size / variables.length;
+    const cellSize = 50;
+    const size = variables.length * cellSize;
+    const margin = { top: 60, right: 40, bottom: 40, left: 120 };
 
     const svg = d3.select(svgRef.current);
-    svg.selectAll("*").remove(); // clear previous renders
+    svg.selectAll("*").remove();
 
-    svg
-      .attr("width", size + margin.left + margin.right)
-      .attr("height", size + margin.top + margin.bottom)
+    const fullWidth = size + margin.left + margin.right;
+    const fullHeight = size + margin.top + margin.bottom;
+
+    svg.attr("width", fullWidth).attr("height", fullHeight);
+
+    const g = svg
       .append("g")
       .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-    const g = svg.select("g");
-
-    const color = d3.scaleSequential(d3.interpolateRdBu).domain([1, -1]); // note reverse for RdBu
-
-    // Axes
     const xScale = d3.scaleBand().domain(variables).range([0, size]);
     const yScale = d3.scaleBand().domain(variables).range([0, size]);
 
+    const color = d3.scaleSequential(d3.interpolateRdBu).domain([1, -1]);
+
+    // Axes
     g.append("g")
-      .selectAll("text")
+      .selectAll("text.x-label")
       .data(variables)
-      .enter()
-      .append("text")
-      .attr("x", (_, i) => i * cellSize + cellSize / 2)
-      .attr("y", -5)
-      .attr("text-anchor", "middle")
-      .text((d) => d)
-      .attr("font-size", 12);
+      .join("text")
+      .attr("x", (d) => xScale(d) + cellSize / 2)
+      .attr("y", -10)
+      .attr("text-anchor", "start")
+      .attr("transform", (d) => `rotate(-45, ${xScale(d) + cellSize / 2}, -10)`)
+      .style("font-size", "12px")
+      .style("fill", theme.palette.text.primary)
+      .style("font-family", theme.typography.fontFamily);
 
     g.append("g")
-      .selectAll("text")
+      .selectAll("text.y-label")
       .data(variables)
-      .enter()
-      .append("text")
-      .attr("y", (_, i) => i * cellSize + cellSize / 2)
-      .attr("x", -5)
+      .join("text")
+      .attr("x", -10)
+      .attr("y", (d) => yScale(d) + cellSize / 2)
       .attr("text-anchor", "end")
       .attr("alignment-baseline", "middle")
-      .text((d) => d)
-      .attr("font-size", 12);
+      .style("font-size", "12px")
+      .style("fill", theme.palette.text.primary)
+      .style("font-family", theme.typography.fontFamily)
+      .text((d) => d);
 
     // Cells
-    g.selectAll("rect")
+    g.selectAll("rect.cell")
       .data(data)
-      .enter()
-      .append("rect")
+      .join("rect")
       .attr("x", (d) => xScale(d.x))
       .attr("y", (d) => yScale(d.y))
       .attr("width", cellSize)
       .attr("height", cellSize)
       .style("fill", (d) => color(d.value))
-      .style("stroke", "#ccc");
+      .style("stroke", "#fff");
 
     // Text values
     g.selectAll("text.value")
       .data(data)
-      .enter()
-      .append("text")
+      .join("text")
       .attr("x", (d) => xScale(d.x) + cellSize / 2)
       .attr("y", (d) => yScale(d.y) + cellSize / 2)
       .attr("text-anchor", "middle")
       .attr("alignment-baseline", "middle")
-      .attr("font-size", 11)
-      .attr("fill", (d) => (Math.abs(d.value) > 0.5 ? "white" : "black"))
+      .style("font-size", "11px")
+      .style("fill", (d) =>
+        Math.abs(d.value) > 0.5
+          ? theme.palette.common.white
+          : theme.palette.text.primary
+      )
       .text((d) => d.value.toFixed(2));
-  }, [rawData, processData, computeCorrelations]);
+  }, [rawData, processData, computeCorrelations, theme]);
 
   return (
-    <div className="correlation-heatmap">
-      <svg ref={svgRef}></svg>
-    </div>
+    <Paper elevation={3} sx={{ p: 3, overflowX: "auto" }}>
+      <Typography variant="h6" fontWeight={600} gutterBottom>
+        Correlation Heatmap
+      </Typography>
+      <Box>
+        <svg ref={svgRef}></svg>
+      </Box>
+    </Paper>
   );
-}
+};
+
+export default CorrelationHeatmap;

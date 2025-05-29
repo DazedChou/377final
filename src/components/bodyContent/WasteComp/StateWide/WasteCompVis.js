@@ -3,7 +3,7 @@ import * as d3 from "d3";
 import stateOverviewJSON from "../../DataFiles/StateWide Characterization/statewideDisposalatAGlance.json";
 import wasteJSON from "../../DataFiles/StateWide Characterization/Top10PrevalentMaterialTypesInWaste.json";
 import materialJSON from "../../DataFiles/StateWide Characterization/Top10MaterialCategories.json";
-import {data} from './data'
+import {data} from '../data'
 
 const WasteCompVis = () => {
   const ref = useRef();

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./styling/App.css";
 import TopNav from "./content/TopNav";
 import Body from "./content/Body";

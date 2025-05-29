@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import * as d3 from "d3";
-import { data } from "./data";
+import { data } from "../data";
 
 const WasteTreemap = () => {
   const ref = useRef();
