@@ -2,13 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
 import { data } from "../data";
 
-const sources = [
-  "Franchised Commercial/Residential",
-  "Single-Family Residential",
-  "Self-Haul",
-  
-];
-
 const GroupedMaterialBarChart = () => {
   const ref = useRef();
   const [drilldown, setDrilldown] = useState(null);
