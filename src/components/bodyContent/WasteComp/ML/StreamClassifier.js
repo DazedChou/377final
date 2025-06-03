@@ -115,7 +115,12 @@ const StreamClassifier = () => {
     setLabels(labelSet);
     setFeatures(subList);
 
-    const xs = tf.tensor2d(allSamples.map((s) => s.features));
+    const xs = tf.tensor2d(
+      allSamples.map((s) => {
+        const max = Math.max(...s.features);
+        return s.features.map((v) => (max > 0 ? v / max : 0));
+      })
+    );
     const ys = tf.tensor2d(
       allSamples.map((s) =>
         labelSet.map((label) => (label === s.stream ? 1 : 0))
@@ -127,7 +132,7 @@ const StreamClassifier = () => {
     }
     let newModel = tf.sequential();
     newModel.add(
-      tf.layers.dense({
+    tf.layers.dense({
         inputShape: [subList.length],
         units: 64,
         activation: "relu",
